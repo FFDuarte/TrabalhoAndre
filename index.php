@@ -55,10 +55,19 @@ background-size: cover;
     color:#333 !important;
 
     border:1px solid #979797;
+}
+h1{
+    
+    font-stretch: semi-condensed;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
 </style>
 </head>
 
+
 <body>
+     <center><h1> TABELA  CRUD</h1></center>
 <br><br>
 <a  class="botao" href="novo.php" role="button" id="botao" script{float:right}>Novo Registro</a>
 <br><br>
