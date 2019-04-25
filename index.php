@@ -15,8 +15,8 @@ $(document).ready(function() {
     $('#example').DataTable({"language": {
        "decimal":        "",
     "emptyTable":     "Tem nada não,irmão",
-    "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
-    "infoEmpty":      "Mostrando 0 / 0 / 0 ",
+    "info":           "Mostrar _START_ de _END_ <br> Total de entradas _TOTAL_ ",
+    "infoEmpty":      "Mostrar 0 0 0 ",
     "infoFiltered":   "(filtered from _MAX_ total entries)",
     "infoPostFix":    "",
     "thousands":      ",",
