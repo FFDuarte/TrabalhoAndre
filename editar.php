@@ -31,7 +31,9 @@ background-size: cover;
         }
 
     .img{ 
+ a{
 
+ }
 
 </style>
 </head>
@@ -64,6 +66,7 @@ background-size: cover;
                                         } catch (PDOException $e) {
                                         echo 'Connection failed: ' . $e->getMessage();
                                         }
+                                       
                                         $id = $_GET['id'];
                                         $sql = "SELECT * FROM tabela where id='$id' ";
                                         foreach ($dbh->query($sql) as $row) {
